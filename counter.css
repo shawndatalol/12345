@@ -1,0 +1,209 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+body {
+  font-family: '微軟正黑體', arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.header{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(31, 50, 65);
+  font-weight:bold;
+}
+
+.content{
+  height: auto;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgba(248, 245, 241, 0.925);
+  border-radius: 10PX;
+  border: 2px rgb(29, 29, 29) solid;
+}
+
+.content #box {
+  font-family: '微軟正黑體',arial,sans-serif;
+  margin-top: 0px;
+  margin-left: 0PX;
+  margin-right: auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  padding-top: 10px;
+  font: 5px;
+  text-align:center;
+  background-color: rgb(255, 255, 255);
+   border: 1px rgb(29, 29, 29) solid;
+}
+
+.content .backScreen {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #232323;
+  border-radius: 10%;
+  text-align:center;
+}
+
+#point
+/*數字*/
+  {
+  text-align: center;
+  margin-top:  auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+#incrementButton {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#resetButton {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrementButton {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+.content .buttons {
+  text-align: center;
+  width: 150px;
+  height: 0px;
+  margin-left: -50PX;
+  margin-right: auto;
+  background-color: antiquewhite;
+
+}
+.content #box1 {
+  font-family: '微軟正黑體', arial, sans-serif;
+  margin-top: -144px;
+  margin-left: 170PX;
+  margin-right: auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  padding-top: 10px;
+  font: 5px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px rgb(29, 29, 29) solid;
+}
+.content .backScreen1 {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #232323;
+  border-radius: 10%;
+  text-align: center;
+}
+
+#point1
+/*數字*/
+  {
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #EEEEEE;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.content .button1s {
+  text-align: center;
+  width: 150px;
+  height: 0px;
+  margin-left: -50PX;
+  margin-right: auto;
+  background-color: antiquewhite;
+
+}
+
+#increment1Button {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  margin-right: auto;
+  font-size: 10px;
+
+}
+
+#reset1Button {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 6px;
+  width: 60px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#discrement1Button {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 6px;
+  width: 20px;
+  height: 30px;
+  font-size: 10px;
+  margin-right: auto;
+}
+#ordernumber{
+  width: 160px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 1380px;
+}
+#工單號碼{
+  margin-right: 1380px;
+  width: 100px;
+  font-size: 14px;
+  font-family: '微軟正黑體';
+  font-weight: bold;
+}
+#字型 {
+  font-size: 23px;
+}
+#字型1 {
+  font-size: 13px;
+}

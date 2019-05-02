@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>In-Win counter</title>
+    <link rel="shortcut icon" href="img/inwinlogo.png">
+    <link rel="stylesheet" href="counter.css">
+  </head>
+  <body>
+  <BODY background="img/123.jpg"></BODY>
+  </body>
+  <body>
+    <div class="header">
+      迎廣不良品紀錄系統
+    </div>
+    <h1>
+          <div id='工單號碼'>工單號碼</div>
+          <input type="text" id='ordernumber' name="工單號" onkeyup="value=value.replace(/[\W]/g,'') "
+            onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" 　　
+            ID="Text1" NAME="Text1">
+    <div class="content">
+      <div id="box">
+          <div id='字型'>壓痕/壓傷</div>
+          <div id='字型1'>รอยกด/บาดเจ็บจากการกด</div>
+        <div class="backScreen">
+          <span id="point">0</span>
+        <div class="buttons">
+            <input type="button" id='discrementButton' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='resetButton' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='incrementButton' value="+1" style="width:30px;height:25px;">
+       <div id="box1">
+         <div id='字型'>變形</div>
+          <div id='字型1'>รูปร่างเปลี่ยน</div>
+        <div class="backScreen1"> 
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+       <div id="box1">
+         <div id='字型'>尺寸不符</div>
+        <div id='字型1'>ขนาดไม่ตรงกัน</div>
+        <div class="backScreen1">
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+         <div id="box1">
+         <div id='字型'>層間磨擦</div>
+        <div id='字型1'>ระหว่างชั้นเสียดสีกัน</div>
+        <div class="backScreen1">
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+         <div id="box1">
+         <div id='字型'>毛邊</div>
+        <div id='字型1'>ขอบ</div>
+        <div class="backScreen1">
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+          <div id="box1">
+         <div id='字型'>油汙</div>
+        <div id='字型1'>น้ำมันสิ่งสกปรก</div>
+        <div class="backScreen1">
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+          <div id="box1">
+          <div id='字型'>攻牙不良</div>
+          <div id='字型1'>กงหยาไม่ดี</div>
+        <div class="backScreen1">
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+                    <div id="box1">
+          <div id='字型'>其他</div>
+          <div id='字型1'>อื่นๆ</div>
+        <div class="backScreen1">
+           <span id="point1">0</span>
+        <div class="buttons">
+            <input type="button" id='discrement1Button' value="-1" style="width:30px;height:25px;">
+            <input type="button" id='reset1Button' value="RESET" style="width:65px;height:25px;">
+            <input type="button" id='increment1Button' value="+1" style="width:30px;height:25px;">
+            </h1>
+    </div>
+      <script type="text/javascript" src="counter.js"></script>
+  </body>
+</html>
